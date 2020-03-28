@@ -1,0 +1,38 @@
+section:nth-child(1) .container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+section:nth-last-of-type(1) .container .circle:first-child {
+  position: relative;
+  right: -9.5rem;
+  bottom: -38.5rem;
+  height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.container .rect {
+  position: relative;
+  top: 31.5rem;
+  left: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
+/*
+.container .pipe {
+  position: relative;
+  right: 27.5rem;
+  bottom: -295px;
+  width: 3rem;
+  height: 3rem;
+}
