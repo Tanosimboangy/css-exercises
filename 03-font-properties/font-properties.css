@@ -1,8 +1,177 @@
-* {
 /*
   Property name
   Property description
 */
-  /* Property example with a value */
+/*
+  Property example with a value
+*/
+/*
+Property name: font-family
+Property description: The font-family CSS property specifies the font for an element.
+Example:
+*/
+.font-family {
+  font-family: fantasy;
+}
 
+/*
+Property name: font-size
+Property description: The font-size CSS property generates the size of the font according to the value given.
+Example:
+*/
+.font-size {
+  font-size: x-large;
+}
+
+/*
+Property name: font-weight
+Property description: The font-weight CSS property sets the thickness of the characters and displays the size of the font.
+Example:
+*/
+.font-weight {
+  font-weight: bolder ;
+}
+
+/*
+Property name: font-style
+Property description: The font-style CSS property sets the style of the text or the characters to be italic or oblic or normal.
+Example:
+*/
+.font-style {
+  font-style: italic;
+}
+
+/*
+Property name: line-height
+Property description: The line-height CSS property is used to make a specific distance between the lines of the text. It maintains the separation between the lines of the text to be the same.
+Example:
+*/
+.line-height {
+  line-height: 0px;
+}
+
+/*
+Property name: font-variant
+Property description: The font-variant CSS property helps the user to control the use for capital letters. It modifies the font of the text to display in a small-caps font. It is optional features or extras.
+Example:
+*/
+.font-variant {
+  font-variant: small-caps;
+}
+
+/*
+Property name: font-stretch
+Property description: The font-stretch CSS property allows the user to make text to be displayed as narrower "condensed" or wider "expanded". It sets how width the characters or the text.
+Example:
+*/
+.font-stretch {
+  font-stretch: extra-expanded;
+}
+
+/*
+Property name: font-size-adjust
+Property description: The font-size-adjust CSS property controls the font size how it should be, based on the height of lowercase rather than capital letters.
+Example:
+*/
+.font-size-adjust {
+  font-size-adjust: inherit;
+}
+
+/*
+Property name: font-synthesis
+Property description: The font-synthesis CSS property controls which missing typefaces, bold or italic, may be synthesized by the browser.
+Example:
+*/
+.font-synthesis {
+  font-synthesis: weight;
+}
+
+/*
+Property name: letter-spacing
+Property description: The letter-spacing CSS property sets the distance or the spacing style between text characters.
+Example:
+*/
+.letter-spacing {
+  letter-spacing: normal;
+}
+
+/*
+Property name: word-spacing
+Property description:The word-spacing CSS property sets the distance or the white space between words in the text to be increased or decreased.
+Example:
+*/
+.word-spacing {
+  word-spacing: 0px;
+}
+
+/*
+Property name: text-align
+Property description: The text-align CSS property adjusts the position of the horizontal alignment of a block element or table-cell box.
+Example:
+*/
+.text-align {
+  text-align: start;
+}
+
+/*
+Property name: text-decoration-line
+Property description: The text-decoration-line CSS property sets a decoration which is used on text in an element to put a line under or over or even through the text or the characters.
+Example:
+*/
+.text-decoration-line {
+  text-decoration-line: line-through ;
+}
+
+/*
+Property name: text-decoration-style
+Property description: The text-decoration-style CSS property sets the style of the lines that the user uses in the text to make a decoration-line.
+Example:
+*/
+.text-decoration-style {
+  text-decoration-style: wavy;
+}
+
+/*
+Property name: text-decoration-color
+Property description: The text-decoration-color CSS property sets the color of decorations that the user adds to the text by text-decoration-line.
+Example:
+*/
+.text-decoration-color {
+  text-decoration-color: lawngreen;
+}
+
+/*
+Property name: text-indent
+Property description: The text-indent CSS property sets the length of empty space that is put before lines of text in a block.
+Example:
+*/
+.text-indent {
+  text-indent: 0px;
+}
+
+/*
+Property name: text-transform
+Property description: The text-transform CSS specifies how to capitalize an element's text.
+Example:
+*/
+.text-transform {
+  text-transform: lowercase
+}
+
+/*
+Property name: vertical-align
+Property description: The vertical-align CSS property sets vertical alignment of an inline, inline-block or table-cell box.
+Example:
+*/
+.vertical-align {
+  vertical-align: text-bottom;
+}
+
+/*
+Property name: white-space
+Property description: The white-space CSS property sets how white space inside an element is handled. HTML doesn't support the white space, so we need this to control the white space behavior.
+Example:
+*/
+.white-space {
+  white-space: pre-wrap;
 }

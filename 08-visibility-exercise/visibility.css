@@ -1,0 +1,37 @@
+/*
+nav li {
+  visibility: hidden;
+}
+
+nav li:first-child {
+  visibility: visible;
+}
+*/
+
+li:first-child {
+  visibility: visible;
+}
+
+li:nth-last-of-type(2n) {
+  visibility: hidden;
+}
+
+li:nth-of-type(2n+3) {
+  visibility: hidden;
+}
+
+tr:nth-last-of-type(2n) {
+  display: none;
+}
+
+tr:last-child > td:nth-last-of-type(2n+1) {
+  display: none;
+}
+
+span {
+  display: none;
+}
+
+span {
+  opacity: 0.5;
+}

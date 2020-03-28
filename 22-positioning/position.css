@@ -1,0 +1,19 @@
+body {
+  background: linear-gradient(0deg, rgba(155, 106, 1, 0.397), rgba(1, 155, 52, 0.397), rgba(124, 1, 155, 0.397));
+  font-family: sans-serif;
+}
+
+li {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: cente;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

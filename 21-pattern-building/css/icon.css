@@ -1,0 +1,61 @@
+a.icon.icon_left::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background-size: 100%;
+  display: inline-block;
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
+  background-image: url(../icon-facebook.png);
+}
+
+a.icon.icon_left {
+<<<<<<< HEAD
+  color: rgb(0, 47, 255);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: white;
+=======
+  font-size: 1rem;
+  line-height: 1.5;
+>>>>>>> 2b2f3b519a15919d9a2d6d7531a630c25406a11f
+  padding-inline-end: 1rem;
+  padding-block-end: 0.5rem;
+  padding-block-start: 0.5rem;
+}
+
+a.icon.icon_right::after {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background-size: 100%;
+  display: inline-block;
+  margin-inline-end: 1rem;
+  margin-inline-start: 1rem;
+  background-image: url(../icon-facebook.png);
+}
+
+a.icon.icon_right {
+  font-size: 1rem;
+  line-height: 1.5;
+<<<<<<< HEAD
+  text-decoration: white;
+  color: rgb(0, 47, 255);
+=======
+>>>>>>> 2b2f3b519a15919d9a2d6d7531a630c25406a11f
+  padding-block-end: 0.5rem;
+  padding-inline-start: 1rem;
+  padding-block-start: 0.5rem;
+}
+
+.icon {
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: rgb(240, 237, 39);
+  background-position: left;
+}
+

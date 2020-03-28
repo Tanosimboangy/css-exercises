@@ -1,0 +1,31 @@
+nav {
+<<<<<<< HEAD
+  width: 100%;
+  height: 6rem;
+  border: 1px solid black;
+  background-color: khaki;
+=======
+  border: 1px solid black;
+  width: 100%;
+  height: 6rem;
+>>>>>>> 2b2f3b519a15919d9a2d6d7531a630c25406a11f
+}
+
+nav > ol li a {
+  text-decoration: none;
+}
+
+nav > ol > li {
+  list-style: none;
+  display: inline;
+}
+
+nav > ol > li:not(:first-child) {
+  margin-inline-start: 2rem;
+}
+
+nav > ol > li:not(:last-child)::after {
+  content: "►";
+  color: rgb(0, 17, 255);
+  margin-inline-start: 2rem;
+}

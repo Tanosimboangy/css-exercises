@@ -18,3 +18,94 @@
     2. Major clause `<h3>` in a new `<section>`
     …
 */
+/*
+
+body {
+  counter-reset: section;
+}
+
+h3 {
+  counter-reset: subsection;
+}
+
+h3::before {
+  counter-increment: section;
+  content: counter(section) ".";
+}
+
+h3 {
+  counter-reset: subsection;
+}
+
+h4::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+
+h4 {
+  counter-reset:list;
+}
+
+li::before {
+  counter-increment: list;
+  content: counter(section) "." counter(subsection) "." counter(list, lower-alpha) ".";
+}
+
+ol ol {
+  counter-reset:li-li;
+}
+
+ol > li > ol > li::before {
+  counter-increment: li-li ;
+  content: counter(section) "." counter(subsection) "." counter(list, lower-alpha) "." counter(li-li, lower-roman) ".";
+}
+
+ol > li {
+  list-style: none;
+}
+
+*/
+
+body {
+  counter-reset: major-clause;
+}
+
+h3 {
+  counter-reset: major-clause;
+}
+
+h3::before {
+  counter-increment: major-clause;
+  content: counter(major-clause) ".";
+}
+
+h3 {
+  counter-reset: clause;
+}
+
+h4::before {
+  counter-increment: clause;
+  content: counter(major-clause) "." counter(clause) " ";
+}
+
+h4 {
+  counter-reset:list;
+}
+
+li::before {
+  counter-increment: list;
+  content: counter(major-clause) "." counter(clause) "." counter(list, lower-alpha) ".";
+}
+
+ol ol {
+  counter-reset: nested-list;
+}
+
+ol > li > ol > li::before {
+  counter-increment: nested-list;
+  content: counter(major-clause) "." counter(clause) "." counter(list, lower-alpha) "." counter(nested-list, lower-roman) ".";
+}
+
+ol > li {
+  list-style: none;
+}

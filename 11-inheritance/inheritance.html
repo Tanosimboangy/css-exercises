@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      INHERITANCE
+    </title>
+    <link rel="stylesheet" href="./inheritance.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        CSS exercise 11: Inheritance
+      </h1>
+      <p>
+        What we commonly refer to as <q>inheritance</q> in css is to make the property take the same specified value as the property of the element's parents. By using this inherit css keyword, the value inherit for any css property that's applied to an element will be applied to its element's childs. This <q>inherit</q> css keyword will trasfer the application of the value of one parent element to its childs.
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>
+          Answering these following questions:
+        </h2>
+        <ul>
+          <li>
+            What we mean by <q>CSS inheritance</q> is that the value of the parent element is allowed to be inherited to the child element.<br>
+            It affects the value of the child element or those which don't have any specified property.
+          </li>
+          <li>
+            All properties which have values thet are inherited by default:
+            <ul>
+              <li>
+                Inherit: Get the property from the parent element.
+              </li>
+              <li>
+                Initial: The default value for the property.
+              </li>
+              <li>
+                Unset: Act as either inherit or initial. It wil act as inherit if the parent has a value that matches, or else it will act as initial.
+              </li>
+            </ul>
+          </li>
+          <li>
+            There are some difference between currentColor and inherit keywords when used with color values:
+            <ul>
+              <li>
+                For currentColor: currentColor acts like a variable for the current value of the color property on the element. And the Cascading part of CSS is still effective, so if there’s no defined color property on an element, the cascade will determine the value of currentColor.
+              </li>
+              <li>
+                For inherit keyewords: This keyword applies the value of the element’s parent or let the current element inherit that value.
+              </li>
+            </ul>
+          </li>
+          <li>
+            The function of these words:
+            <ul>
+              <li>
+                The revert value in CSS <q>resets</q> a property back to it's inherited value, only going as far back as the UA stylesheet.
+              </li>
+              <li>
+                The initial value initial CSS keyword applies the initial value of a property to a ccurrent element. The initial CSS keyword applies the initial value of a property to an element.The initial keyword is used to set a CSS property to its default value as well.
+              </li>
+              <li>
+                The unset CSS keyword resets a property to its inherited value if it inherits from its parent, and to its initial value if not.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Any dangers or unintened side-affects when using inherit as a value, the revert, initial.
+            <ul>
+              <li>
+                For inherit: By using this value a property with the value 'inherit' will use the same value as the parent element has for that property even though this is not the purpose.
+              </li>
+              <li>
+                For the revert: It won't reset a &lt;p&gt; to inline, for example, because a p is a block-level element as set in the UA stylesheet.
+              </li>
+              <li>
+                For initial: I think there isn't, because it can be applied to any CSS property.
+              </li>
+              <li>
+                For unset property: It behaves like the inherit keyword in one hand case, and like the initial keyword in the other hand. So it might work in the wrong way if the user doesn't know how to use it.
+              </li>
+            </ul>
+          </li>
+          <li>
+            All elements might inherit the value of the element which has the property.
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

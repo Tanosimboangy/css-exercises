@@ -1,8 +1,96 @@
-* {
-  /*
-    Property name
-    Property description
-  */
-    /* Property example with a value */
+/*
+Property name
+Property description
+*/
+/*
+Property example with a value
+*/
+/*
+Property name: color
+Property description: The color CSS property sets the way of identifying your primary painting color.
+Property example with a value:
+*/
+color {
+  color: hsla(hue, saturation, lightness, alpha);
+}
 
-  }
+/*
+Property name: background-color
+Property description: The CSS property sets the background color of an element.
+Property example with a value:
+*/
+background-color {
+  background-color: black;
+}
+
+/*
+Property name: background-image
+Property description:  The background-image CSS property sets the background images on an element.
+Property example with a value:
+*/
+background-image {
+  background-image: repeating-linear-gradient(0deg, rgb(255, 1, 1));
+}
+
+/*
+Property name: background-repeat
+Property description: The background-repeat CSS property sets how background images are repeated
+Property example with a value:
+*/
+background-repeat {
+  background-repeat: repeat-x;
+}
+
+/*
+Property name: background-position
+Property description: The background-position CSS property controls the position of the background image. The position is based on the position layer created by background-origin.
+Property example with a value:
+*/
+background-position {
+  background-position: bottom;
+}
+
+/*
+Property name: background-attachment
+Property description: The background-attachment CSS property sets background image's position whether it should be fixed or scrolled with its containing block.
+Property example with a value:
+*/
+background-attachment {
+  background-attachment: scroll;
+}
+/*
+
+Property name: background-clip
+Property description: The background-clip CSS property sets whether the element or the text's background should be extended its border box, padding box, or content box.
+Property example with a value:
+*/
+background-clip {
+  background-clip: content-box;
+}
+
+/*
+Property name: background-origin
+Property description: The background-origin CSS property sets the background's origin, started from the border, the inside and the inside of the padding box.
+Property example with a value:
+*/
+background-origin {
+  background-origin: padding-box;
+}
+
+/*
+Property name: background-size
+Property description: The background-size CSS property sets the size of the element's background image whether it should be displayed with its natural size, or constrained to fit the available space.
+Property example with a value:
+*/
+background-size {
+  background-size: contain;
+}
+
+/*
+Property name: box-shadow
+Property description: The box-shadow CSS property adds shadow effects around an element's background or its border.
+Property example with a value:
+*/
+box-shadow {
+  box-shadow: 2rem;
+}

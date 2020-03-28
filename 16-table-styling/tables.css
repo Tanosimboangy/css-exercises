@@ -1,0 +1,27 @@
+body {
+  width: 600px;
+  display: table;
+  border: 1px solid black;
+}
+
+section {
+  display: table-row;
+}
+
+h1 {
+  display: table-caption;
+  margin-inline-start: 8px;
+  font-weight: bold;
+}
+
+h2 {
+  display: table-cell;
+  vertical-align: middle;
+  padding-inline-start: 6rem;
+}
+
+section p {
+  padding: 1rem;
+  display: table-cell;
+  font-family: initial;
+}

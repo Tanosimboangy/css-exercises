@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(0deg, rgba(245, 19, 19, 0.431),  rgba(63, 64, 136, 0.322),  rgba(185, 167, 6, 0.322));
+}
+
+h2 {
+  background: linear-gradient(0deg, rgba(0, 255, 13, 0.712), rgba(251, 134, 0, 0.815), rgba(32, 52, 230, 0.5));
+  margin: 1rem;
+  padding: 1rem;
+  border: solid black 1px;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-shadow: brown 2px 2px;
+}
+
+ul {
+  color: rgb(0, 0, 0);
+  text-decoration: rgb(0, 0, 0);
+  font-style: normal;
+  font-size: 2rem;
+  border-spacing: 2em;
+}

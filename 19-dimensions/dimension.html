@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dimension</title>
+    <link rel="stylesheet" href="dimension.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Width and weight
+      </h1>
+    </header>
+    <main>
+      <ul>
+        <li>
+          Width
+          <ul>
+            <li>
+              The default values for the width propertie is <b>auto</b>
+            </li>
+            <li>
+              The default values for the height propertie is <b>auto</b>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          Yes, these default values don't apply if the element is an inline-like element.
+        </li>
+        <li>
+          They don't change if the element is an block-like element. But instead, the element will automatically apply its height and its width to allow its content to be displayed correctly.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          If a min-width value is greater than a width value, the min-width won't be applied.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          If a max-width value is less than a width value the max-width will be applied.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          If a min-width value is greater than a max-width value,
+          the width of the container will be the largest value and the min-width value will be the one that's applied.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          When widths are applied to table cells, and the content inside these cells doesn't fit, the cells will be wide depending on the content inside.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          The deal with height and percentage values  is that the percentage is calculated according to the height of the generated box's containing block.
+        </li>
+        <li>
+          The percent is the percent of height.
+        </li>
+      </ul>
+      <ul>
+        <li>
+          All the significant or interesting characteristics of this ruleset is:
+          <ol>
+            <li>
+              The min-width has different value and different unit from the max-width.
+            </li>
+            <li>
+              The max-width will be calculated by the releative to 1% of the width of the viewport, whereas the min-width will be calculated by the releative to font size of the root element.
+            </li>
+          </ol>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          The implied width of a div is that width's value will be calculated according to div's width because div element has a width of 500px, and margin set to auto.
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>

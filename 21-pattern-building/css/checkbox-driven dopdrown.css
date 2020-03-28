@@ -1,0 +1,31 @@
+.dropdown {
+  border: 1px solid black;
+<<<<<<< HEAD
+  width: 100%;
+=======
+  width: 40%;
+>>>>>>> 2b2f3b519a15919d9a2d6d7531a630c25406a11f
+  height: 8rem;
+  background-color: rgba(183, 235, 106, 0.568);
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.dropdown_trigger::after {
+  content: "▼";
+  color: rgb(255, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+.dropdown_contents {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .dropdown_contents {
+  display: block;
+}

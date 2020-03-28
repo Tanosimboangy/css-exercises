@@ -1,0 +1,77 @@
+#sky {
+  height: 170px;
+  position: relative;
+}
+
+#cloud-1 {
+  background-image: url(../images/cloud.svg);
+  height: 50px;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+
+#cloud-2 {
+  background-image: url(../images/cloud.svg);
+  height: 50px;
+  width: 45px;
+  background-repeat: no-repeat;
+}
+
+.cloud {
+  border: white;
+}
+
+#sun {
+  background-image: url(../images/sun.svg);
+  background-repeat: no-repeat;
+}
+
+#contryside {
+  position: relative;
+  height: 150px;
+}
+
+#town {
+  position: relative;
+  height: 120px;
+  z-index: 3;
+}
+
+#house-1 {
+  background-image: url(../images/house-1.svg);
+  background-repeat: no-repeat;
+}
+
+#house-2 {
+  background-image: url(../images/house-2.svg);
+  background-repeat: no-repeat;
+}
+
+.house {
+  align-items: center;
+}
+
+#tree {
+  background-image: url(../images/tree.svg);
+}
+
+#palm {
+  background-image: url(../images/palm-tree.svg);
+}
+
+.plant {
+  animation: sway 3s ease-in-out infinite;
+  transform-origin: 50% 100%;
+  transform: skewX(3deg);
+}
+
+#road {
+ border: black;
+}
+
+#car {
+    background-image: url(../images/car.svg);
+    width: 70px;
+    height: 70px;
+    animation: ltr 3s ease-in-out infinite;
+}

@@ -1,0 +1,71 @@
+.example h1, h2, h3, h4, h5, h6, intro, p, small {
+  margin-block-end: 1rem;
+}
+
+.example h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.example h2 {
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+
+.example h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.example h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.example h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.example h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+.example .intro {
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+.example p {
+  font-size: 1rem;
+}
+
+.example small {
+  font-size: 0.75rem;
+}
+
+/* sans-serif */
+#section_sans_serif {
+  font-family: serif, sans-serif;
+}
+
+/* serif */
+#section_serif {
+  font-family: 'Times new Roman', serif;
+}
+
+/* monospace */
+#section_monospace {
+  font-family: monospace;
+}
+
+/* fantasy */
+#section_fantasy {
+  font-family: Papyrus, fantasy;
+}
+
+/* cursive */
+#section_cursive {
+  font-family: cursive;
+}

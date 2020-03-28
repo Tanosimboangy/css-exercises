@@ -1,0 +1,19 @@
+header > nav  a {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#section-nav {
+  margin-block-end: -6.1rem;
+
+}
+
+#section-nav a {
+  color: white;
+  text-decoration: white;
+  margin-inline-end: 2rem;
+}
+
+body > nav {
+  text-align: center;
+}

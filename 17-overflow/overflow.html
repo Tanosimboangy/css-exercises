@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>
+      Document
+    </title>
+    <link rel="stylesheet" href="overflow.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        overflow
+      </h1>
+    </header>
+    <main>
+      <section>
+        <ul>
+          <li>
+            <b>Overflow:</b>
+            <ul>
+              <li>
+                The default value for the property overflow is <b>visible</b>.
+              </li>
+              <li>
+                We would use this property if we want to specify what should happen if content overflows an element's box.
+              </li>
+              <li>
+                This property is useful, because it helps the user to make the content to fit the space it belongs to.
+              </li>
+              <li>
+                Other propertie needs to be set before this propertie can work effectively is <b>display: block</b>.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>Clip:</b>
+            <ul>
+              <li>
+                The default value for the clip property is <b>auto</b>.
+              </li>
+              <li>
+                We would use this property to control the visibility of the element which overflowed of the containt box.
+              </li>
+              <li>
+                This property is useful because it allows the user to cover the content of an element.
+              </li>
+              <li>
+                Other propertie needs to be set before this propertie can work effectively is <b>position:absolute</b> or <b>position:fixed</b>.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>Clip-path:</b>
+            <ul>
+              <li>
+                The default value for the clip-path property is <b>none</b>.
+              </li>
+              <li>
+                We would use this property if we want to specify a specific region of an element to display rather than showing the complete area.
+              </li>
+              <li>
+                This property is useful because by using this property you can change the way content occurs arround an element because the shape applied using shape-outside changes the geomettry of the element.
+              </li>
+              <li>
+                Other propertie needs to be set before this propertie can work effectively is
+              </li>
+            </ul>
+          </li>
+          <li>
+            <b>Text-overflow: ellipsis</b> :
+            <ul>
+              <li>
+                We would use this property to deal with situation where text is cliped when it overflows the element's box.
+              </li>
+              <li>
+                This property is useful because , by using this property any text that goes outside the list will be shortened and have an ellipsis placed on the end. Moreover, you can point the mouse over any text that is truncated and see a tooltip of its full text.
+              </li>
+              <li>
+                Other propertie needs to be set before this propertie can work effectively is
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h1>
+          More general questions:
+        </h1>
+        <ul>
+          <li>
+            The browser's default way to handle contents that are larger than its container is that tha browser will grow the box as large as it needs to fit the  content. This only happens if the width or the height is not set. But if you do specify the width or the height of the box, the css overflow will help the user to deal with that.
+          </li>
+          <li>
+            Ellipsis:
+            <ul>
+              <li>
+                The ellipsis is a character that represents the clipped text and displayed inside the content area, decreasing the amount of text displayed.
+              </li>
+              <li>
+                 That is different from ellipse, because ellipse is a circle.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Text-overflow is different from the other properties because it only happens when the container's overflow property has the value hidden, scroll or auto. Apart from that the text overflow only occurs on block or inline-block level elements, because the element needs to have a width so that it can be overflowed.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

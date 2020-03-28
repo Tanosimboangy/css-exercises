@@ -4,4 +4,83 @@
     Property description
   */
     /* Property example with a value */
-  }
+}
+
+  /*
+    Property name:
+    Property description:
+  */
+  /*
+    Property example with a value:
+  */
+
+body {
+    background: linear-gradient(to left,#3002ff5b,  #f5c88596, #fcd69e96);
+    padding: 0.2rem;
+}
+
+h1 {
+    background: linear-gradient(#fc04e763, #eeab4696,  #1020ff96);
+    padding: 0.2rem;
+    color: darkblue;
+    text-align: center;
+    font-size: 80px;
+    border: tomato;
+    margin: 10px;
+}
+
+h2 {
+    background: linear-gradient(#041dfc63, #ff9f1096,  #ff9f1096);
+    padding: 0.2rem;
+    color: darkgreen;
+    text-align: start;
+    font-style: italic;
+    background-size: cover;
+    font-size: 50px;
+}
+
+body > p {
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+    font-style: italic;
+    border: thick double #088603;
+}
+
+section:nth-last-of-type(2n) {
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 5px;
+    border: thick double #32a1ce;
+
+}
+
+section:nth-of-type(2n+3) {
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 5px;
+    border: thick double #32a1ce;
+}
+
+section:nth-last-of-type(2n+1) {
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 5px;
+    border: thick double #32a1ce;
+}
+
+footer > p {
+  margin: 10px;
+  background-color: darkorchid;
+}
+
+footer > h2 {
+  background-color: darkorange;
+  margin: 5px;
+}
+

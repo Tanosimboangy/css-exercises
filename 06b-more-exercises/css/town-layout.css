@@ -62,14 +62,14 @@ body {
 }
 
 #cloud-1 {
-  top: 5px;
+  top: 35px;
   left: -100%;
   animation: ltr 10s linear infinite;
   animation-delay: 2s;
 }
 
 #cloud-2 {
-  top: 35px;
+  top: 5px;
   left: -100%;
   animation: ltr 8s linear infinite;
 }
@@ -92,20 +92,20 @@ body {
 #house-1 {
   bottom: 1px;
   left: 20px;
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
 }
 
 #house-2 {
   bottom: 13px;
   right: 70px;
-  width: 120px;
-  height: 120px;
+  width: 56px;
+  height: 56px;
 }
 
 #palm {
   bottom: 14px;
-  right: 10px;
+  right: 5px;
   animation-delay: 1s;
   width: 60px;
   height: 60px;
