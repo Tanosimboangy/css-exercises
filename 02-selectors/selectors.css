@@ -24,7 +24,7 @@ table {
 /*
   4 = Select any `h1` element that is a descendent of the `header` element
 */
-haeder h1{
+header h1{
   font-size: 4rem;
   margin-bottom: 0;
 }

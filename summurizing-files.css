@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(0deg, rgba(255, 0, 255, 0.596), rgba(107, 75, 252, 0.596), rgba(252, 255, 81, 0.596))
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
