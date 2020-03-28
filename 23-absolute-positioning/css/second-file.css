@@ -17,12 +17,20 @@ section:nth-of-type(2) .container .circle:nth-of-type(2) {
   top: -50%;
   width: 100%;
 }
+
+/*
+Placing two or more on the same place, one inside the other.
+*/
 section:nth-of-type(2) .container .circle:nth-of-type(3) {
   position: absolute;
   left: -50%;
   bottom: -50%;
   width: 100%;
 }
+
+/*
+Positionning two or more element on the same location, we need to use ( z-index(the order of the element on its position)).
+*/
 section:nth-of-type(2) .container .circle:nth-of-type(4) {
   position: absolute;
   left: -50%;

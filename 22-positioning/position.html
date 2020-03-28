@@ -26,13 +26,10 @@
         </h2>
         <ul>
           <li>
-            Some of the other propreties the user need to supply when using any non-default position value are:
+            Some of the other propreties the user needs to supply when using any non-default position value are:
             <ul>
               <li>
                 Width
-              </li>
-              <li>
-                Height
               </li>
               <li>
                 Top
@@ -62,10 +59,13 @@
             The special or significant about <b>Fixed</b> and <b>Sticky</b> positioning is that:
             <ul>
               <li>
-                 They keep the element to stay on the same location even though the document is scrowling up or down.
+                 They keep the element to stay on the same location even though the document is scrowlled up or down.
               </li>
               <li>
-                They can stop the  viewport from changing when the window is scrolled and <b>fixed</b> or <b>sticky</b> positioned element will will be on the place where it is when the page is scrolled. However, they still allow us to scrowl the viewport without any difficulties.
+                They can stop the  viewport from changing when the window is scrolled, and <b>fixed</b> or <b>sticky</b> positioned element will be on the place where it is when the page is scrolled.
+              </li>
+              <li>
+                However, they still allow us to scrowl the viewport without any difficulties.
               </li>
             </ul>
           </li>
@@ -74,7 +74,7 @@
       <section>
         <ul>
           <li>
-            When positioning an element absolutely, to lock that element's coordinates to its parent element
+            When positioning an element absolutely, to lock that element's coordinates to its parent element we need to set a specific coordinates for its parents before setting up the coordinates for its children.
           </li>
           <li>
             Absolute positioned layouts are useful for:
@@ -101,21 +101,18 @@
                 The rules here are:
                 <ul>
                   <li>
-
+                    Two elements set absolutely on the same place, if they have the same size, the one which is set the first will occupy the place.
                   </li>
                   <li>
-
-                  </li>
-                  <li>
-
+                    Using the property z-index helps the user to position two or more elements on the same location, but they have different sizes.
                   </li>
                 </ul>
               </li>
               <li>
-                A certain element on top is
+                A certain element is on top because this is the first element that set the first.
               </li>
               <li>
-                We can adjust that ourselves by
+                We can adjust that ourselves by using the property z-index, which sets the elements to appear on the same location according to their orders.
               </li>
             </ul>
           </li>
