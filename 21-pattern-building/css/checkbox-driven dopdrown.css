@@ -19,7 +19,7 @@
   color: black;
   position: relative;
   font-weight: 700;
-  border: 0.25rem;
+  border-radius: 0.25rem;
 }
 
 .dropdown_trigger::before {
@@ -62,11 +62,9 @@
 Create default state: closed / unchecked
 */
 
-.dropdown_trigger::before {
-  border-color: currentColor transparent transparent transparent;
-  border-style: solid;
-  border-width: 0.6rem 0.5rem 0 0.5rem;
-  transition: border .3s;
+.dropdown_contents a::hover {
+  background-color: hotpink;
+  color: white;
 }
 
 /*
@@ -75,6 +73,13 @@ create alternative state: open / unchecked
 
 .dropdown_contents {
   display: none;
+}
+
+.dropdown_trigger::before {
+  border-color: currentColor transparent transparent transparent;
+  border-style: solid;
+  border-width: 0.6rem 0.5rem 0 0.5rem;
+  transition: border .3s;
 }
 
 [type="checkbox"]:checked ~ .dropdown_trigger::before {

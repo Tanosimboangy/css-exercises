@@ -11,6 +11,11 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  position: relative;
+}
+
+.progress_indicator li {
+  counter-increment: step_number;
 }
 
 /*
@@ -28,12 +33,13 @@
 }
 
 .progress_indicator li > *::before {
-  content: counter();
-  padding-inline-start: 3rem;
+  content: counter(step_number);
   position: absolute;
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
+  top: 50%;
+  left: 1rem;
   margin-top: -0.75rem;
   line-height: center;
   font-size: 1rem;
@@ -41,8 +47,13 @@
 }
 
 /* Back links, or previous steps */
-.progress_indicator a::before {
+
+.progress_indicator a {
   text-decoration: none;
+}
+
+.progress_indicator a::before {
+  background-color: green;
 }
 
 /* Current step */
@@ -69,9 +80,11 @@
   width: 0.25rem;
   position: absolute;
   top: 1rem;
+  left: 1.75rem;
   bottom: 1rem;
   background-color: #ccc;
   margin-inline-start: -0.125rem;
+  z-index: -1;
 }
 
 
