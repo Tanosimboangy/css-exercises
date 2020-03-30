@@ -1,4 +1,20 @@
-a.icon.icon_left::before {
+.icon {
+  display: inline-block;
+  border: 1px solid;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: rgb(105, 105, 102);
+}
+
+.icon_left {
+  position: relative;
+  font-weight: bold;
+  padding-left: 3rem;
+}
+
+.icon_left::before {
   content: "";
   width: 1.5rem;
   height: 1.5rem;
@@ -12,13 +28,13 @@ a.icon.icon_left::before {
   background-image: url(../icon-facebook.png);
 }
 
-a.icon.icon_left {
+.icon_right {
   position: relative;
   font-weight: bold;
-  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
-a.icon.icon_right::after {
+.icon_right::after {
   content: "";
   width: 1.5rem;
   height: 1.5rem;
@@ -31,21 +47,4 @@ a.icon.icon_right::after {
   border-radius: 50%;
   background-size: 100%;
   background-image: url(../icon-facebook.png);
-}
-
-a.icon.icon_right {
-  position: relative;
-  font-weight: bold;
-  padding-right: 3rem;
-
-}
-
-.icon {
-  display: inline-block;
-  border: 1px solid;
-  padding: 1rem;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: rgb(105, 105, 102);
 }
