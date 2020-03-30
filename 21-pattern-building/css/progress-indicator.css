@@ -1,3 +1,83 @@
+.a11y {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.progress_indicator {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+1. Back links - has an anchor
+2. Current syep - has bold
+3. Future steps - spans
+*/
+
+.progress_indicator li > * {
+  display: block;
+  padding: 1rem;
+  color: black;
+  padding-inline-start: 3rem;
+  position: relative;
+}
+
+.progress_indicator li > *::before {
+  content: counter();
+  padding-inline-start: 3rem;
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  margin-top: -0.75rem;
+  line-height: center;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+/* Back links, or previous steps */
+.progress_indicator a::before {
+  text-decoration: none;
+}
+
+/* Current step */
+.progress_indicator  b {
+
+}
+
+.progress_indicator  b::before {
+  background-color: coral;
+}
+
+/* Future step */
+.progress_indicator span {
+  opacity: 0.75;
+}
+
+.progress_indicator span::before {
+  background-color: crimson;
+  color: aliceblue;
+}
+
+.progress_indicator::after {
+  content: '';
+  width: 0.25rem;
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  background-color: #ccc;
+  margin-inline-start: -0.125rem;
+}
+
+
+
+
+/*
 .progress_indicator {
   list-style: none;
   counter-reset: step;
