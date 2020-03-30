@@ -11,15 +11,12 @@ a.icon.icon_left::before {
 }
 
 a.icon.icon_left {
-<<<<<<< HEAD
   color: rgb(0, 47, 255);
   font-size: 1rem;
   line-height: 1.5;
   text-decoration: white;
-=======
   font-size: 1rem;
   line-height: 1.5;
->>>>>>> 2b2f3b519a15919d9a2d6d7531a630c25406a11f
   padding-inline-end: 1rem;
   padding-block-end: 0.5rem;
   padding-block-start: 0.5rem;
@@ -40,11 +37,8 @@ a.icon.icon_right::after {
 a.icon.icon_right {
   font-size: 1rem;
   line-height: 1.5;
-<<<<<<< HEAD
   text-decoration: white;
   color: rgb(0, 47, 255);
-=======
->>>>>>> 2b2f3b519a15919d9a2d6d7531a630c25406a11f
   padding-block-end: 0.5rem;
   padding-inline-start: 1rem;
   padding-block-start: 0.5rem;

@@ -155,7 +155,7 @@ Property description: The text-transform CSS specifies how to capitalize an elem
 Example:
 */
 .text-transform {
-  text-transform: lowercase
+  text-transform: lowercase;
 }
 
 /*
