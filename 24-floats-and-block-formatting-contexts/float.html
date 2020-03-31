@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FLOATS</title>
+    <link rel="stylesheet" href="floats.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        FLOAT AND BLOCK FORMATTING CONTEXTS
+      </h1>
+    </header>
+    <main>
+      <h2>
+        floats
+      </h2>
+      <section>
+        <ul>
+          <li>
+            Default value:
+            <ul>
+              <li>
+                The default value for float is <b>none</b>.
+              </li>
+              <li>
+                The default value for clear is <b>none</b>.
+              </li>
+            </ul>
+          </li>
+          <li>
+            The possible values for clear are:
+            <ul>
+              <li>
+                <b>Right</b>
+              </li>
+              <li>
+                <b>Left</b>
+              </li>
+              <li>
+                <b>None</b>
+              </li>
+              <li>
+                <b>Both</b>
+              </li>
+            </ul>
+          </li>
+          <li>
+            The rules associated with a floated item in terms of source order is that the flotted element must display before the other element.
+          </li>
+          <li>
+            We can float other elements besides images. But sometimes we have to choose the display value.
+          </li>
+          <li>
+            YES! There is a way to create a two-column layout with floats.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>
+          BFC (Block formatting context)
+        </h2>
+        <ul>
+          <li>
+            Description on my own words what BFC is all about.
+            <ul>
+              <li>
+                According to me, BFC is a part of the viewport css displayed on a web page, that the block boxes are appeared.
+              </li>
+            </ul>
+          </li>
+          <li>
+            We can <q>clear</q> a float by creating a block formatting context on the parent, this is achieved by putting a certain set of properties on the container. Those properties are:
+            <ul>
+              <li>
+                Overflow: scroll
+              </li>
+              <li>
+                overflow: hidden
+              </li>
+              <li>
+                display: flex
+              </li>
+              <li>
+                float: left
+              </li>
+                display: table
+            </li>
+            </ul>
+          </li>
+          <li>
+            I won't forget about Block Formatting Contexts tomorrow if I have more practice.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
