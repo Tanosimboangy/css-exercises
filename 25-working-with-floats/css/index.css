@@ -1,1 +1,44 @@
 @import "setup.css";
+/*
+Images in context
+*/
+
+section:nth-of-type(1) img[alt="Inspector Gadget"] {
+  float: left;
+}
+
+section:nth-of-type(1) img[alt="Inspector Gadget"] ~ p {
+  clear: right;
+}
+
+section:nth-of-type(1) img[alt="Dr. Claw"] {
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+section:nth-of-type(1) img[alt="Dr. Claw"] ~ p {
+  clear: left;
+  padding-top: 2rem;
+}
+
+/*
+Images in a columm
+*/
+section:nth-of-type(2) img[alt="Inspector Gadget"] {
+  float: left;
+}
+
+section:nth-of-type(2) img[alt="Inspector Gadget"] ~ p {
+  clear: right;
+}
+
+section:nth-of-type(2) img[alt="Dr. Claw"] {
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+section:nth-of-type(2) img[alt="Dr. Claw"] ~ p {
+  clear: left;
+}
