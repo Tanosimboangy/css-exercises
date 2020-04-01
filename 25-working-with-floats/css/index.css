@@ -3,7 +3,7 @@
 Images in context
 */
 
-section:nth-of-type(1) img[alt="Inspector Gadget"] {
+\section:nth-of-type(1) img[alt="Inspector Gadget"] {
   float: left;
   margin-right: 2rem;
 }
@@ -65,6 +65,19 @@ Row-based layouts
 */
 
 .form_toolbar > button {
-  clear: right;
   float: right;
+  margin-top: -3rem;
+  clear: left;
+}
+
+
+.form_row {
+  clear: both;
+  float: right;
+  margin-inline-start: 14rem;
+  padding: 1rem;
+}
+
+label {
+  float: left;
 }
