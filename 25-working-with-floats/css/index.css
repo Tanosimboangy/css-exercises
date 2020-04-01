@@ -81,37 +81,35 @@ Row-based layouts
 */
 
 
+header h3 {
+  margin: 0;
+  line-height: 36px;
+  float: left;
+  margin-bottom: 1rem;
+}
 
 .form_toolbar {
   float: right;
   line-height: 2;
-  margin-top: 1rem;
+  margin-top: 2px;
 }
 
-header {
-  margin: 0;
-  line-height: 36px;
-}
-
-
-/*
 .form_row {
   clear: both;
 }
 
 .form_row label {
   text-align: right;
+  float: left;
+  width: 8rem;
+  line-height: 3.5rem;
+  margin-inline-end: 1rem;
 }
 
-.form_row label[for="field_title"] {
+.field {
+  margin: 1rem;
 }
 
-button {
-  margin-block-start: 1rem;
-  margin-inline-end: 8rem;
+.form_actions {
+  margin-inline-start: 9rem;
 }
-
-label {
-  margin-left: -18rem;
-} */
-
