@@ -80,15 +80,31 @@ Float-based layouts
 Row-based layouts
 */
 
-.form_toolbar > button {
 
+
+.form_toolbar {
+  float: right;
+  line-height: 2;
+  margin-top: 1rem;
 }
 
-.form_row label[for="field_title"] {
+header {
+  margin: 0;
+  line-height: 36px;
 }
 
 
 /*
+.form_row {
+  clear: both;
+}
+
+.form_row label {
+  text-align: right;
+}
+
+.form_row label[for="field_title"] {
+}
 
 button {
   margin-block-start: 1rem;
@@ -97,5 +113,5 @@ button {
 
 label {
   margin-left: -18rem;
-}
- */
+} */
+
