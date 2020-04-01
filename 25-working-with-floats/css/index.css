@@ -23,29 +23,45 @@ section:nth-of-type(1) img[alt="Dr. Claw"] ~ p {
   padding-top: 2rem;
 }
 
+
+
+
+
+
+
+
+
 /*
 Images in a columm
 */
 
 section:nth-of-type(2) img[alt="Inspector Gadget"] {
   float: left;
-  margin-inline-end: 2rem;
+}
+
+section:nth-of-type(2) .container  div:nth-of-type(1) {
+  overflow: auto;
 }
 
 section:nth-of-type(2) img[alt="Inspector Gadget"] ~ p {
-  margin-block-end: 10rem;
+  margin-inline-start: 16rem;
 }
 
-section:nth-of-type(2) img[alt="Inspector Gadget"] ~ p {
-  clear: right;
+section:nth-of-type(2) .container > div:nth-of-type(2) {
+  overflow: auto;
 }
 
 section:nth-of-type(2) img[alt="Dr. Claw"] {
-  clear: left;
+  clear: both;
   float: left;
-  margin-inline-end: 3.5rem;
-  margin-block-end: 15rem;
 }
+
+section:nth-of-type(2) img[alt="Dr. Claw"] ~ p {
+  margin-inline-start: 16rem;
+}
+
+
+
 
 /*
 Float-based layouts
@@ -65,19 +81,21 @@ Row-based layouts
 */
 
 .form_toolbar > button {
-  float: right;
-  margin-top: -3rem;
-  clear: left;
+
+}
+
+.form_row label[for="field_title"] {
 }
 
 
-.form_row {
-  clear: both;
-  float: right;
-  margin-inline-start: 14rem;
-  padding: 1rem;
+/*
+
+button {
+  margin-block-start: 1rem;
+  margin-inline-end: 8rem;
 }
 
 label {
-  float: left;
+  margin-left: -18rem;
 }
+ */
