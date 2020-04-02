@@ -1,37 +1,56 @@
 h1 {
-  border: 1px solid black;
   background: blanchedalmond;
   font-family: sans-serif;
   font-size: 2rem;
 }
 
-h3 {
-  border: 6px solid black;
-  background: rgb(255, 205, 244);
+ul {
+  background: rgba(251, 255, 3, 0.582);
   font-family: sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-radius: 2px;
 }
 
-p {
+h2 {
   border: 1px solid blue;
   background: chartreuse;
   font-family: sans-serif;
-  font-size: 2rem;
-  align-self: stretch;
-}
-
-textarea {
-  border: 3px solid rgb(0, 61, 13);
-  background: chocolate;
-  font-family: sans-serif;
-  font-size: 2rem;
 }
 
 main {
   border: 1px solid rgb(0, 19, 129);
-  background: yellow;
+  background: rgba(1, 6, 255, 0.712);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: baseline;
 }
+
+/*
+DISPLAY: FLEX= A flex container expands items to fill available free space or shrinks them to prevent overflow.
+
+DISPLAY: INLINE-FLEX= This makes the flex container display inline.
+
+FLEX WRAP: The flex-wrap property specifies whether the flexible items should wrap or not.
+
+FLEX DIRECTION: The flex-direction property specifies the direction of the flexible items.
+
+ALIGN-ITEMS: In Flexbox, it controls the alignment of items on the Cross Axis. In Grid Layout, it controls the alignment of items on the Block Axis within their grid area.
+
+JUSTIFY-CONTENT: The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+FLEX: The flex CSS property sets how a flex item will grow or shrink to fit the space available in its flex container. It is a shorthand for flex-grow, flex-shrink, and flex-basis.
+
+FLEX-GROW: The flex-grow CSS property sets the flex grow factor of a flex item main size.
+
+FLEX-SHRINK: The flex-shrink CSS property sets the flex shrink factor of a flex item.
+
+FLEX-BASIS: The flex-basis CSS property sets the initial main size of a flex item.
+
+ALING-SELF: The align-self CSS property overrides a grid or flex item's align-items value.
+
+ALIGN-SELF: The align-self property specifies the alignment for the selected item inside the flexible container.
+
+ORDER: The order CSS property sets the order to lay out an item in a flex or grid container.
+*/

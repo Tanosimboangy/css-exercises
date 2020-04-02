@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
   </head>
   <body>
     <header>
@@ -12,63 +13,72 @@
       </h1>
     </header>
     <main>
-      <ol>
-        <li>
-          <ul>
-            <li>
-              The order of property values in the shorthand flex property is <b>flex-grow</b>, <b>flex-shrink</b> and <b>flex-basis</b>.
-            </li>
-            <li>
-              For this example: flex: 2 1 auto;: 2 represents the value of the <b>flex-grow</b>, 1 represents the value of the <b>flex-shrink</b> and auto represents the value of the <b>flex-basis</b>.
-            </li>
-          </ul>
-        </li>
-        <li>
-          Before we can use align-content we need these flex-wrap or flex-flow values:
-          <ul>
-            <li>
-              For flex-wrap values we need: wrap, wrap-reverse.
-            </li>
-            <li>
-              For flex-flow values we need: row wrap, column wrap-reverse, column wrap.
-            </li>
-          </ul>
-        </li>
-        <li>
-          The diffrence between align-content and align-items is:
-          <ul>
-            <li>
-              Align-content only applies to the multiple-line of the flex container and it aligns the flex lines.
-            </li>
-            <li>
-              Whereas, align-items only applies to all flex container and it aligns the flex items along the cross axis of each flex items.
-            </li>
-          </ul>
-        </li>
-        <li>
-          The flex item's align-self property overrides the other. This is because in Grid, it aligns the item inside the grid area. In Flexbox, it aligns the item on the cross axis.
-        </li>
-        <li>
-          The other commonly-used box model property which is similar to flex-basis is flex-grow.
-        </li>
-        <li>
-          There are two ways to change the ordering of flex items within a flex container. One is done on each flex item by using the order property. The other can change the whole order of the flex items at the container level. That property is flex direction, only by using one of these values: <b>row</b>, <b>column</b>, <b>row-reverse</b>, <b>column-reverse</b>.
-        </li>
-        <li>
-          Let's say we wanted some space between each of our three flex items in a flex column. Some possible ways to achieve this:
-          <ul>
-            <li>
-              we can use margin: auto to set the space around each items.
-            </li>
-            <li>
-              Moreover, to control the space between the items we can use align-content with the values space-between or space-around.
-            </li>
-            <li>
-              The third way to achieve this is by using justify-content distributes space between and around content items.
-            </li>
-          </ul>
-        </li>
-      </ol>
+      <header>
+        <h2>
+          Flexbox helps us align and distribute items within a container, along one direction (or main axis) at a time.
+        </h2>
+      </header>
+      <section>
+        <ul>
+          <li>
+            The order of property values in the shorthand flex property is <b>flex-grow</b>, <b>flex-shrink</b> and <b>flex-basis</b>.
+          </li>
+          <li>
+            For this example: flex: 2 1 auto;: 2 represents the value of the <b>flex-grow</b>, 1 represents the value of the <b>flex-shrink</b> and auto represents the value of the <b>flex-basis</b>.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Before we can use align-content we need these flex-wrap or flex-flow values:
+            <ul>
+              <li>
+                For flex-wrap values we need: wrap, wrap-reverse.
+              </li>
+              <li>
+                For flex-flow values we need: row wrap, column wrap-reverse, column wrap.
+              </li>
+            </ul>
+          </li>
+          <li>
+            The diffrence between align-content and align-items is:
+            <ul>
+              <li>
+                Align-content only applies to the multiple-line of the flex container and it aligns the flex lines.
+              </li>
+              <li>
+                Whereas, align-items only applies to all flex container and it aligns the flex items along the cross axis of each flex items.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            The flex item's align-self property overrides the other. This is because in Grid, it aligns the item inside the grid area. In Flexbox, it aligns the item on the cross axis.
+          </li>
+          <li>
+            The other commonly-used box model property which is similar to flex-basis is flex-grow.
+          </li>
+          <li>
+            There are two ways to change the ordering of flex items within a flex container. One is done on each flex item by using the order property. The other can change the whole order of the flex items at the container level. That property is flex direction, only by using one of these values: <b>row</b>, <b>column</b>, <b>row-reverse</b>, <b>column-reverse</b>.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Let's say we wanted some space between each of our three flex items in a flex column. Some possible ways to achieve this:
+            <ul>
+              <li>
+                we can use margin: auto to set the space around each items.
+              </li>
+              <li>
+                Moreover, to control the space between the items we can use align-content with the values space-between or space-around.
+              </li>
+              <li>
+                The third way to achieve this is by using justify-content distributes space between and around content items.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
     </main>
   </body>
 </html>
