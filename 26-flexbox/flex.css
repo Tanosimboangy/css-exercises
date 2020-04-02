@@ -1,0 +1,37 @@
+h1 {
+  border: 1px solid black;
+  background: blanchedalmond;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  border: 6px solid black;
+  background: rgb(255, 205, 244);
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  border: 1px solid blue;
+  background: chartreuse;
+  font-family: sans-serif;
+  font-size: 2rem;
+  align-self: stretch;
+}
+
+textarea {
+  border: 3px solid rgb(0, 61, 13);
+  background: chocolate;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+main {
+  border: 1px solid rgb(0, 19, 129);
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
