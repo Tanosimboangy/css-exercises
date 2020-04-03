@@ -7,3 +7,25 @@ footer ul {
 footer p {
   color: #999;
 }
+
+footer ul {
+  display: inline;
+  list-style: none;
+  text-align: center;
+  margin-inline-end: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding-block-start: 6rem;
+  padding-block-end: 6rem;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li:not(:first-child):not(:last-child) {
+  margin-inline-start: 2rem;
+  margin-inline-end: 2rem;
+}
