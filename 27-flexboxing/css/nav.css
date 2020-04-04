@@ -12,9 +12,13 @@ header > nav ul {
   align-content: space-between;
 }
 
-nav ul li {
+header nav ul li {
   align-content: space-around;
   margin-inline-end: 2rem;
+  margin-block-end: -1.1rem;
+  clear: right;
+  float: right;
+  margin-top: 2rem;
 }
 
 header > nav a {

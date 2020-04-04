@@ -28,6 +28,6 @@ footer li {
   justify-content: center;
 }
 
-footer li:not(:first-child):not(:last-child) {
-  margin-inline-end: 2rem;
+footer li {
+  margin-inline-start: 2rem;
 }

@@ -7,7 +7,6 @@ main > header {
   text-align: center;
   padding-block-start: 8rem;
   padding-block-end: 8rem;
-
 }
 
 body > header {
@@ -36,4 +35,3 @@ main h2 {
   margin-inline-start: 0;
   padding-inline-start: 0;
  }
-
