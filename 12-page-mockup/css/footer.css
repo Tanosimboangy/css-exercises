@@ -26,7 +26,6 @@ footer li {
   display: inline;
 }
 
-footer li:not(:first-child):not(:last-child) {
+footer li:not(:first-child) {
   margin-inline-start: 2rem;
-  margin-inline-end: 2rem;
 }

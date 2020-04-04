@@ -7,6 +7,7 @@ main > header {
   text-align: center;
   padding-block-start: 8rem;
   padding-block-end: 8rem;
+  min-height: 20vw;
 }
 
 body > header {
