@@ -5,14 +5,14 @@ main > header {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 10rem;
   padding-block-start: 8rem;
-  padding-block-end: 0rem;
+  padding-block-end: 8rem;
 
 }
 
 body > header {
   text-align: center;
+  float: left;
 }
 
 h1 a {
