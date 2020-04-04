@@ -14,6 +14,7 @@ header > nav ul {
 
 nav ul li {
   align-content: space-around;
+  margin-inline-end: 2rem;
 }
 
 header > nav a {

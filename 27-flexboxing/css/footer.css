@@ -22,10 +22,12 @@ footer {
 }
 
 footer li {
-  display: inline;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer li:not(:first-child):not(:last-child) {
-  margin-inline-start: 2rem;
   margin-inline-end: 2rem;
 }
