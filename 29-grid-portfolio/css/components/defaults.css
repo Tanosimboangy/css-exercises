@@ -34,24 +34,6 @@ img {
   border: 0;
 }
 
-main ul {
-  display: grid;
-  grid-template-columns:  repeat(6, 150px);
-  column-gap: 15px;
-  row-gap: 30px;
-  margin-left : 45px;
-}
-
-h1 {
-  display: grid;
-  grid-template-columns:  repeat(1, 150px);
-}
-
-ul {
-  display: grid;
-  grid-template-columns:  repeat(6, 150px);
-}
-
 h1,
 h2,
 h3 {

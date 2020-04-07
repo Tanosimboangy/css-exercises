@@ -42,3 +42,10 @@
 .gallery figcaption {
 
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns:  repeat(6, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
+}
