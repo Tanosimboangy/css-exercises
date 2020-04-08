@@ -47,3 +47,10 @@ nav.works_item_navigation {
   color: #fff18f;
 }
 
+article {
+  margin-block-end: 6rem;
+}
+
+aside {
+  margin-block-end: 3rem;
+}
