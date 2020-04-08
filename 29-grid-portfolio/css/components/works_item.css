@@ -26,9 +26,8 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns:  repeat(6, 145px);
-  column-gap: 15px;
-  margin-inline-start: -10px;
+  grid-template-columns:  repeat(4, 25px);
+  margin-inline-start: -12px;
 }
 
 nav.works_item_navigation {
