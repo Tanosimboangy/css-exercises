@@ -45,3 +45,14 @@ body > footer p:last-child a::before {
   left: 0;
   filter: grayscale(1);
 }
+
+.post {
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
+}
+
+.post footer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
