@@ -1,3 +1,27 @@
-.about {
 
+main.about {
+  display: grid;
+  grid-template-columns:  repeat(6, 145px);
+  column-gap: 15px;
+  margin-block-start: 45px;
+  margin-block-end: 18rem;
+}
+
+.about_header {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+main.about img {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+main.about .about_description {
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+main.about .about_description > p {
+  margin: 0;
 }
