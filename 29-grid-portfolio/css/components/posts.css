@@ -74,12 +74,12 @@ grid-area: content;
   background-color: #4d4d4d;
 }
 
-.post:nth-of-type(2n) .image-half {
+.post:nth-of-type(2n) .image_half {
   float: left;
   margin-inline-end: 15px;
 }
 
-.post:nth-of-type(2n+1) .image-half {
+.post:nth-of-type(2n+1) .image_half {
   float: right;
   margin-inline-start: 15px;
 }
