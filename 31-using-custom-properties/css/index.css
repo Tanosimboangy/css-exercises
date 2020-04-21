@@ -2,10 +2,4 @@
 @import "dry.css";
 @import "mosaic.css";
 
-.root {
-  --width-dry: 20px;
-  --height-dry: var(--width-dry);
-  --line-height-dry: var(--width-dry);
-  --value-dry: 0;
 
-}
