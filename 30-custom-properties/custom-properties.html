@@ -29,16 +29,10 @@
           Characters we can't use in a Custom Property name are:
           <ul>
             <li>
-              Quotation mark("") or ('').
+              Spaces.
             </li>
             <li>
-              comma(,).
-            </li>
-            <li>
-              doubt(.).
-            </li>
-            <li>
-              slash(/).
+              Period or fullstop.
             </li>
           </ul>
         </li>
@@ -46,21 +40,21 @@
           The possible values we can assign to a new Custom Property are:
           <ul>
             <li>
-              color
+              Number
             </li>
             <li>
-              padding
+              Text
             </li>
             <li>
-              background-clolor
+              Key words
             </li>
           </ul>
         </li>
         <li>
-          It is useful to create Custom Properties using the :root or html selector when we want to avoid rewrite the same values every property. To be clear the user can reduce the need of repetition. Furthermore, it can be applied across your HTML document. Using Custom Properties keeps you to risk for having an error.
+          It is useful to create Custom Properties using the :root or html selector when we want to avoid rewrite the same values every property. To be clear, the user can reduce the need of repetition. Furthermore, it can be applied across your HTML document. Using Custom Properties keeps you to risk for having an error.
           <ul>
             <li>
-              It is not when
+              It is not when we want to use the same variable custom property but has differnt values in each time.
             </li>
           </ul>
         </li>
@@ -76,21 +70,24 @@
           There are several ways to override or change a Custom Property. These are some of them:
           <ul>
             <li>
-              Specify the selector and set the new custom property with the new selector and the new value for it.
+              Specify the selector and set the new custom property with the new selector and the new value for it. But it only works on div.
             </li>
             <li>
-
+              We can change it directly.
             </li>
             <li>
-
+              using @media
+            </li>
+            <li>
+              Set the property under the last one.
             </li>
           </ul>
         </li>
         <li>
-          Custom Properties are useful because they help the author to write less and clean but really powerful css. Moreover, they can help to avoid the repetition of some same values.
+          Custom Properties are useful because they help the author to write less and clean but really powerful css. Moreover, they can help to avoid the repetition of some same values. One point of control.
         </li>
         <li>
-          The only aspect (or part) of CSS syntax that we can use Custom Properties for is
+          The only aspect (or part) of CSS syntax that we can use Custom Properties for is declaration block.
         </li>
       </ul>
     </main>
