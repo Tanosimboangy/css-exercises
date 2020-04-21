@@ -1,36 +1,49 @@
+:root {
+  --width: 20px;
+  --hieght: var(--width);
+  --line-height: var(--width);
+  --value: 0;
+  --font-size: 10;
+  --transition: background-color 1s;
+  --counter-increment: item;
+  --color-chanel: 255;
+}
+
 #dry .grid {
   display: inline-grid;
-  grid-template-columns: repeat(10, 20px);
+  grid-template-columns: repeat(var(--font-size), var(--width));
 }
 
 #dry a {
   display: block;
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: var(--width);
+  height: var(--width);
   background-color: rgb(63, 63, 63);
-  transition: background-color 1s;
-  counter-increment: item;
+  transition: var(--transition);
+  counter-increment: var(--counter-increment);
 }
 
 #dry a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(var(--value), var(--value), var(--value));
 }
 
 #dry a::before {
-  content: counter(item);
+  content: counter(var(--counter-increment));
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 20px;
+  top: var(--value);
+  left: var(--value);
+  width: var(--width);
   text-align: center;
-  font-size: 10px;
-  line-height: 20px;
-  font-weight: 700;
-  color: rgb(63, 63, 63);
+  font-size: calc(var(--font-size) * 1px);
+  line-height: var(--line-height);
+  font-weight: calc(var(--font-size) * 70);
+  color: rgb(calc(var(--color-chanel) - 192), calc(var(--color-chanel) - 192), calc(var(--color-chanel) - 192));
   transition: color 1s;
 }
 
 #dry a:hover::before {
-  color: rgb(255, 255, 255);
+  color: rgb(var(--color-chanel), var(--color-chanel), var(--color-chanel));
 }
+
+
