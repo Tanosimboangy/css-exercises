@@ -1,10 +1,36 @@
-#c_and_i .row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
-#c_and_i .row a + a             { background-color: hsla(200deg, 100%, 50%, 0.2);}
-#c_and_i .row a + a + a         { background-color: hsla(200deg, 100%, 50%, 0.3);}
-#c_and_i .row a + a + a + a     { background-color: hsla(200deg, 100%, 50%, 0.4);}
-#c_and_i .row a + a + a + a + a { background-color: hsla(200deg, 100%, 50%, 0.5);}
+:root {
+  --hue: 36deg;
+  --a: 0.1;
+  --counter-increment: item;
+}
+
+#c_and_i .row a {
+  counter-increment: var(--counter-increment);
+}
+
+#c_and_i a::before {
+  content: counter(var(--counter-increment));
+}
+
+
+
+
+
+
+
+#c_and_i .row a                 { background-color: hsla(36deg, 100%, 50%, 0.1);}
+#c_and_i .row a + a             { background-color: hsla(72deg, 100%, 50%, 0.2);}
+#c_and_i .row a + a + a         { background-color: hsla(108deg, 100%, 50%, 0.3);}
+#c_and_i .row a + a + a + a     { background-color: hsla(144deg, 100%, 50%, 0.4);}
+#c_and_i .row a + a + a + a + a { background-color: hsla(180deg, 100%, 50%, 0.5);}
+#c_and_i .row a + a + a + a + a  + a { background-color: hsla(216deg, 100%, 50%, 0.6);}
+#c_and_i .row a + a + a + a + a + a + a { background-color: hsla(252deg, 100%, 50%, 0.7);}
+#c_and_i .row a + a + a + a + a + a + a + a { background-color: hsla(288deg, 100%, 50%, 0.8);}
+#c_and_i .row a + a + a + a + a + a + a + a + a { background-color: hsla(324deg, 100%, 50%, 0.9);}
+#c_and_i .row a + a + a + a + a + a + a + a + a + a { background-color: hsla(360deg, 100%, 50%, 1);}
+
+
 /*
   … etc …
-
   This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
 */
