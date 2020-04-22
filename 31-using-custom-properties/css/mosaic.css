@@ -1,34 +1,34 @@
 :root {
   --hue: 36deg;
-  --a: 0.1;
-  --counter-increment: item;
-}
-
-#c_and_i .row a {
-  counter-increment: var(--counter-increment);
-}
-
-#c_and_i a::before {
-  content: counter(var(--counter-increment));
+  --opacity: 0.1;
 }
 
 
+.row a:nth-of-type(1) {  --opacity-multiplie: 1;}
+.row a:nth-of-type(2) {  --opacity-multiplie: 2;}
+.row a:nth-of-type(3) {  --opacity-multiplie: 3;}
+.row a:nth-of-type(4) {  --opacity-multiplie: 4;}
+.row a:nth-of-type(5) {  --opacity-multiplie: 5;}
+.row a:nth-of-type(6) {  --opacity-multiplie: 6;}
+.row a:nth-of-type(7) {  --opacity-multiplie: 7;}
+.row a:nth-of-type(8) {  --opacity-multiplie: 8;}
+.row a:nth-of-type(9) {  --opacity-multiplie: 9;}
+.row a:nth-of-type(10) {  --opacity-multiplie: 10;}
 
+.row a {
+  background-color: hsla(calc(var(--hue-multiplie) * var(--hue)), 100%, 50%, calc(var(--opacity-multiplie) * var(--opacity)));
+}
 
-
-
-
-#c_and_i .row a                 { background-color: hsla(36deg, 100%, 50%, 0.1);}
-#c_and_i .row a + a             { background-color: hsla(72deg, 100%, 50%, 0.2);}
-#c_and_i .row a + a + a         { background-color: hsla(108deg, 100%, 50%, 0.3);}
-#c_and_i .row a + a + a + a     { background-color: hsla(144deg, 100%, 50%, 0.4);}
-#c_and_i .row a + a + a + a + a { background-color: hsla(180deg, 100%, 50%, 0.5);}
-#c_and_i .row a + a + a + a + a  + a { background-color: hsla(216deg, 100%, 50%, 0.6);}
-#c_and_i .row a + a + a + a + a + a + a { background-color: hsla(252deg, 100%, 50%, 0.7);}
-#c_and_i .row a + a + a + a + a + a + a + a { background-color: hsla(288deg, 100%, 50%, 0.8);}
-#c_and_i .row a + a + a + a + a + a + a + a + a { background-color: hsla(324deg, 100%, 50%, 0.9);}
-#c_and_i .row a + a + a + a + a + a + a + a + a + a { background-color: hsla(360deg, 100%, 50%, 1);}
-
+.row:nth-of-type(1) {  --hue-multiplie: 1;}
+.row:nth-of-type(2) {  --hue-multiplie: 2;}
+.row:nth-of-type(3) {  --hue-multiplie: 3;}
+.row:nth-of-type(4) {  --hue-multiplie: 4;}
+.row:nth-of-type(5) {  --hue-multiplie: 5;}
+.row:nth-of-type(6) {  --hue-multiplie: 6;}
+.row:nth-of-type(7) {  --hue-multiplie: 7;}
+.row:nth-of-type(8) {  --hue-multiplie: 8;}
+.row:nth-of-type(9) {  --hue-multiplie: 9;}
+.row:nth-of-type(10) {  --hue-multiplie: 10;}
 
 /*
   … etc …
