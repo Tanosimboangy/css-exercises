@@ -1,0 +1,33 @@
+:root {
+  --font-size: 1.5rem;
+  --color: rgb(0, 38, 255);
+  --base-border: 1px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: calc(var(--font-size) * 2);
+  text-align: center;
+  color: var(--color);
+}
+
+body {
+  border: black solid var(--base-border);
+  border-radius: calc(var(--base-border) * 8);
+  padding-inline-start: calc(var(--font-size) * 4);
+  padding-inline-end: calc(var(--font-size) * 4);
+}
+
+li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  margin-block-end: 1rem;
+}
+
+
+li li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(2, 70, 0);
+  margin-block-end: 0;
+}

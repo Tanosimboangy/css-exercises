@@ -4,40 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title> The Calc function</title>
+    <link rel="stylesheet" href="calc.css">
   </head>
   <body>
     <header>
       <h1>
-        The Calc function
+        Research aboutThe Calc() function
       </h1>
     </header>
     <main>
       <ol>
         <li>
-          Values that a calc() function can support are:
+          Some values that a calc() function can support are:
           <ul>
-            <li>Number</li>
-            <li>Key words of text</li>
-            <li></li>
+            <li>
+              Number values with units or not.
+            </li>
+            <li>
+              Key words or text like (blue).
+            </li>
           </ul>
         </li>
         <li>
-          To control the mathematical order of operation (PEDMAS / BODMAS) in the function, so that something like calc(2 + 3 * 4) doesn't equal 20, when it is instead meant to equal 14
+          To control the mathematical order of operation (PEDMAS / BODMAS) in the function, so that something like calc(2 + 3 * 4) equals 20, we can put brackets round the addition part that we want to be separately calculated from the whole operation. For example calc(var((2 + 3) * 4));
         </li>
         <li>
-          Can we use a calc() function to convert one type of unit to another type of unit
+          We can'te use a calc() function to convert one type of unit to another type of unit.
         </li>
         <li>
-          If we want to convert a unitless number to a unit value, do we have to do is to multiplie the value by 1plus the unit we want.
+          If we want to convert a unitless number to a unit value, what we have to do is to multiplie the value by 1(unit) of the unit we want. For example: font-size: calc(var(line-height) * 1rem);
         </li>
         <li>
-          The plus and minus operators inside the function need spaces around them
+          The plus and minus operators inside the function need spaces around them because it's required, otherwise the calc fonction  won't work just as the operator plus(+) or minus(-) doesn't work.
         </li>
         <li>
-          We can convert a value into a negative value by multipling the value by -1.
+          We can convert a value into a negative value by multipling the value by -1. For example: margin: calc(var(font-size) * -1);
         </li>
         <li>
-          Can the calc() function work with colour values? e.g. a light red plus a light red should equal a darker red.
+          Calc() function can't work with colour values? e.g. a light red plus a light red should equal a darker red.
         </li>
       </ol>
     </main>
