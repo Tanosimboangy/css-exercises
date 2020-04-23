@@ -3,7 +3,6 @@
   --opacity: 0.1;
 }
 
-
 .row a:nth-of-type(1) {  --opacity-multiplie: 1;}
 .row a:nth-of-type(2) {  --opacity-multiplie: 2;}
 .row a:nth-of-type(3) {  --opacity-multiplie: 3;}
