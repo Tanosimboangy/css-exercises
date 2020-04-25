@@ -3,7 +3,7 @@
 Images in context
 */
 
-\section:nth-of-type(1) img[alt="Inspector Gadget"] {
+section:nth-of-type(1) img[alt="Inspector Gadget"] {
   float: left;
   margin-right: 2rem;
 }
