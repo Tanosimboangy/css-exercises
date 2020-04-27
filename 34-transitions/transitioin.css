@@ -1,3 +1,70 @@
-:root [
-  f
-]
+:root {
+  --font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.first {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.second {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.third {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.fourth {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.fith {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.sixth {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.seventh {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.eighth {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.ninth {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: var(--font-size);
+  font-style: normal;
+  font-weight: bolder;
+}
