@@ -21,9 +21,21 @@
 */
 .scene:hover .wheel {
   left: 100%;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-duration: 3s;
+  transform: rotate(360deg);
+  transition-property: all;
+}
+
+.scene .wheel {
+  right: 100%;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition-duration: 3s;
+  transition-property: all;
 }
 
 /* Wheel setup */
+
 .wheel {
   position: absolute;
   bottom: 0;
@@ -49,3 +61,4 @@
 .spoke:nth-of-type(2) { transform: rotate(45deg); }
 .spoke:nth-of-type(3) { transform: rotate(90deg); }
 .spoke:nth-of-type(4) { transform: rotate(135deg); }
+
