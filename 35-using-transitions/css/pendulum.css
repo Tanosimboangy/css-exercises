@@ -48,14 +48,26 @@
 
 .pendulum .metal-ball:nth-of-type(1) {
   transform: rotate(20deg);
+  transition-duration: 1s;
+  transition-property: transform, left;
+  transition-timing-function: ease-out;
 }
 .pendulum:hover .metal-ball:nth-of-type(1) {
   transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-property: transform, right;
+  transition-timing-function: ease-in;
 }
-
 .pendulum .metal-ball:nth-of-type(3) {
   transform: rotate(0deg);
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-property: transform, right;
+  transition-timing-function: ease-in;
 }
 .pendulum:hover .metal-ball:nth-of-type(3) {
   transform: rotate(-20deg);
+  transition-duration: 1s;
+  transition-delay: 1s;
+  transition-timing-function: ease-out;
 }
