@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Transform</title>
+    <link rel="stylesheet" href="transform.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Research about transition
+      </h1>
+    </header>
+    <main>
+      <section>
+        <ul>
+          <li>
+            Name of the functions we can use in a transform's value are:
+            <ol>
+              <li>rotate()</li>
+              <li>scale()</li>
+              <li>translate()</li>
+              <li>skew()</li>
+              <li>matrix()</li>
+              <li>persrective()</li>
+            </ol>
+          </li>
+          <li>
+            We have to use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg), because using properties like: transform-scale: 0.5;, or transform-rotate: 45deg; does't work.
+          </li>
+          <li>
+            Often, we want to move the central pin or axis of the transform away from its default position. The property we use to set that is translate property.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            It is preferable to use transform: translate() rather than position and its associated properties because using transform simplifies the how we position one element, whereas chanses are there that we might have to use margin negative in order to position on element in the center of the location when we use position. Moreover, it's a bit complicated to use position.
+          </li>
+          <li>
+            When an element is translated / transformed, what happens to the flow of the document is the transformed or the translated element will lay on top of another element which located in the same location.
+            Therefore, the layout method similar to transform is <mark>positionning</mark>.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            The problems I can run in to when overriding a transform in a more specific selector :
+          </li>
+          <li>
+            If we want to go 3D, we need to use another property to set the view over the scene. That property is <mark>perspective<mark>.
+          </li>
+          <li>
+            We can control what the transform uses in its calculations in terms of the box model. The property we can use to adjust this is <mark>transform-box</mark>.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

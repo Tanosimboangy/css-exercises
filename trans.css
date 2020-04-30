@@ -1,0 +1,44 @@
+div {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+a {
+  display: block;
+  position: absolute;
+  background-color: rgb(133, 133, 133);
+  width: 5vw;
+  height: 5vw;
+  left: 50%;
+  top: 50%;
+  /* transform: translate(-50%, -50%); */
+  transform: rotate(45deg);
+  transform-origin: 4.2vw -1.7vw;
+  z-index: 1;
+}
+
+div::before,
+div::after {
+  background-color: burlywood;
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+
+div::before {
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+
+div::after {
+  height: 1px;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
