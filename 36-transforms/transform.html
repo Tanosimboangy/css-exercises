@@ -30,17 +30,17 @@
             We have to use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg), because using properties like: transform-scale: 0.5;, or transform-rotate: 45deg; does't work.
           </li>
           <li>
-            Often, we want to move the central pin or axis of the transform away from its default position. The property we use to set that is translate property.
+            Often, we want to move the central pin or axis of the transform away from its default position. The property we use to set that is <mark>translate property</mark>.
           </li>
         </ul>
       </section>
       <section>
         <ul>
           <li>
-            It is preferable to use transform: translate() rather than position and its associated properties because using transform simplifies the how we position one element, whereas chanses are there that we might have to use margin negative in order to position on element in the center of the location when we use position. Moreover, it's a bit complicated to use position.
+            It is preferable to use transform: translate() rather than position and its associated properties because using transform simplifies the condition how we can position one element by using position property, whereas chanses are there that we might have to use margin negative in order to position on element in the center of the location when we use position. Moreover, it's a bit complicated to use position.
           </li>
           <li>
-            When an element is translated / transformed, what happens to the flow of the document is the transformed or the translated element will lay on top of another element which located in the same location.
+            When an element is translated / transformed, what happens to the flow of the document is that the transformed or the translated element will lay on top of another element which located in the same location.
             Therefore, the layout method similar to transform is <mark>positionning</mark>.
           </li>
         </ul>
@@ -48,7 +48,7 @@
       <section>
         <ul>
           <li>
-            The problems I can run in to when overriding a transform in a more specific selector :
+            The problems I can run in to when overriding a transform in a more specific selector is that the the element with specific selector will not lay as you expected because it applies the value from the parent before applying the value from the specific selector.
           </li>
           <li>
             If we want to go 3D, we need to use another property to set the view over the scene. That property is <mark>perspective<mark>.
