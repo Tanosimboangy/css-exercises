@@ -73,13 +73,15 @@
 }
 
 .scene:hover #earth-system {
-
+  transform: translate(100px, -60px);
 }
 
 .scene:hover #earth {
-
+  transform: translate(-10px, -10px);
 }
 
 .scene:hover #luna {
-
+  transform: translate(55px, -5px);
+  transition: ease;
+  left: 45deg;
 }
