@@ -27,7 +27,7 @@
             </ol>
           </li>
           <li>
-            We have to use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg), because using properties like: transform-scale: 0.5;, or transform-rotate: 45deg; does't work.
+            We have to use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg), because using properties like: transform-scale: 0.5;, or transform-rotate: 45deg; because the order of the properties become a problem for the browser to read the code.
           </li>
           <li>
             Often, we want to move the central pin or axis of the transform away from its default position. The property we use to set that is <mark>translate property</mark>.
@@ -48,7 +48,8 @@
       <section>
         <ul>
           <li>
-            The problems I can run in to when overriding a transform in a more specific selector is that the the element with specific selector will not lay as you expected because it applies the value from the parent before applying the value from the specific selector.
+            The problems I can run in to when overriding a transform in a more specific selector is that there might be a conflict if you set the tranlate property with the <mark>a</mark> but you don't set it with the <mark>a:hover</mark>. So the element will rotate but go to the default position.
+
           </li>
           <li>
             If we want to go 3D, we need to use another property to set the view over the scene. That property is <mark>perspective<mark>.
