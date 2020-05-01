@@ -74,14 +74,16 @@
 
 .scene:hover #earth-system {
   transform: translate(100px, -60px);
+  transition-duration: 2s;
 }
 
 .scene:hover #earth {
   transform: translate(-10px, -10px);
+  transition-duration: 2s;
+  transform-origin: -10px 5px;
+  transform: translate(40%) translateY(-30%) rotate(12turn);
 }
 
 .scene:hover #luna {
   transform: translate(55px, -5px);
-  transition: ease;
-  left: 45deg;
 }
