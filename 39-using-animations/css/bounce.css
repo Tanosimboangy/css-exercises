@@ -1,3 +1,14 @@
+@keyframes ball {
+  from {
+    top: 0%;
+    transform: translateY(0px) translateX(0px);
+  }
+  to {
+    top: 0%;
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
 :root {
   --ball-diameter: 100px;
 }
@@ -23,4 +34,10 @@
     50% -25px,
     50% 50%;
   background-repeat: no-repeat;;
+  animation: ball;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }

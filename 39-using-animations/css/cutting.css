@@ -1,3 +1,26 @@
+@keyframes scissors {
+  from {
+    top: 85%;
+    transform: translateX(0%) translateY(0%);
+  }
+  to {
+    top: 85%;
+    transform: translateX(100%) translateY(0%);
+  }
+}
+
+@keyframes handle {
+  0% {
+    left:75%;
+    transform: translateX(25%) translateY(25%);
+  }
+  100% {
+    left:75%;
+    transform: translateX(25%) translateY(25%);
+  }
+
+}
+
 :root {
   --blade-length: 250px;
   --blade-width: 30px;
@@ -31,6 +54,7 @@
     var(--blade-length)
   );
   height: calc(var(--blade-width) + var(--blade-edge-width));
+  animation: handle 1s ease-out infinite;
 }
 
 .blade {
@@ -88,6 +112,12 @@
   height: 200px;
   width: 370px;
   z-index: calc(var(--middle-z-index) + 1);
+  animation: scissors;
+	transform:translateX(-50%) translateY(-50%);
+	animation-name:scissors;
+	animation-duration:10s;
+	animation-timing-function:ease;
+	animation-fill-mode:forwards;
 }
 
 #scissors-pivot {
@@ -158,6 +188,7 @@
 #handle-top::after {
   bottom: calc(var(--handle-diameter) / 2);
   margin-block-end: calc(var(--handle-connect-thickness) / -2);
+
 }
 
 #paper-cut {
