@@ -1,11 +1,9 @@
 @keyframes ball {
   from {
     top: 0%;
-    transform: translateY(0px) translateX(0px);
   }
   to {
-    top: 0%;
-    transform: translateX(0px) translateY(0px);
+    top: 80%;
   }
 }
 
