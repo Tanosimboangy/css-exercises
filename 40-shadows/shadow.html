@@ -28,24 +28,28 @@
       </header>
       <ul>
         <li>
-          1 Box-shadow and text-shadow have very similar value syntax. However, they have some differences like:
+          Box-shadow and text-shadow have very similar value syntax. However, they have some differences like:
           <ul>
             <li>
-              1- a- We can use thickness value with box shadow but we can not use it with text shadow.
+              We can use thickness value with box shadow but we can not use it with text shadow.
             </li>
             <li>
-              1- b- We can not use inset value with the text shadow whereas we can use it with box shadow.
+              We can not use inset value with the text shadow whereas we can use it with box shadow.
             </li>
           </ul>
         </li>
         <li>
-          2- If I wanted to create a hard-edge shadow, one that looks like a solid border, the combination of values I would need to use is .
+          If I wanted to create a hard-edge shadow, one that looks like a solid border, the combination of values I would need to use is 0 for the X and 0 for Y but a value bigger than 0 for the thickness.
         </li>
         <li>
-          3- Yes, it is possible to create a shadow on a circular element. We can create a shadow on a polygon.
+          Yes, it is possible to create a shadow on a circular element. We can create a shadow on a polygon, but with these conditions:
+          <ul>
+            <li>It can only work with SVG.</li>
+            <li>Moreover, you have to use filter</li>
+          </ul>
         </li>
         <li>
-          4- Yes, it is possible to create multiple shadows on the same element.
+          Yes, it is possible to create multiple shadows on the same element.
         </li>
       </ul>
     </main>
