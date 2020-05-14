@@ -47,12 +47,12 @@
             The font-face syntax is also different to other @-blocks. The differences between a @font-face block and @keyframes / @media queries / @supports blocks are:
             <ul>
               <li>
-                For @font-face block we can donload the value when it does not exist in our computer, but for the others the value has to exist in the computer.
+                For @font-face block we can donload the value when it does not exist in our computer, but for the others the value has to exist in the computer. We do not need a name. We do not specify the starting point and the ending point. Font face just has one curly braces. This needs source value.
               </li>
             </ul>
           </li>
           <li>
-            Some fonts come with licencing restrictions. The licence restriction is a letter which allows you to use the font.
+            Some fonts come with licencing restrictions. The licence restriction is a letter which allows you to use the font. This
           </li>
           <li>
             A designer has assigned you a mockup to turn into HTML/CSS. You've tabled the list of fonts used in the document. In this case we need 8 font-face blocks to provide if we want to support all the chosen fonts.
@@ -62,22 +62,22 @@
       <section>
         <ul>
           <li>
-            At roughly 20KB per font file, each of our users would have to download 120kb of fonts, in the example above.
+            At roughly 20KB per font file, each of our users would have to download 160kb of fonts, in the example above.
           </li>
           <li>
             If we chose to offer WOFF2 as well as WOFF, we would use syntax like this <mark>@font-face {
             src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
             url("/fonts/OpenSans-Regular-webfont.woff") format("woff");</mark>.<br>
-            According to question 5 we would have 8 files.
+            According to question 5 we would have 16 files.
           </li>
           <li>
-            Most of our users would probably have the exact font we want to serve already installed on their devices. To make sure the user's browser doesn't download the fonts they might already have we can specify that the font is already installed in the user's computer.
+            Most of our users would probably have the exact font we want to serve already installed on their devices. To make sure the user's browser doesn't download the fonts they might already have we can specify the local function => local(......), the font which is already installed in the user's computer.
           </li>
           <li>
-            Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face. Some things to keep in mind when it comes to selecting these fallback fonts are
+            Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face. Some things to keep in mind when it comes to selecting these fallback fonts are they have to have the same characteristics.
           </li>
           <li>
-            The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first. What property can we use to help the browser decide on which strategy to use?
+            The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first. We can use <mark>display property with its value <q>fallback</q> or <q>swap</q></mark>, or we can use blank until downloaded.
           </li>
         </ul>
       </section>
