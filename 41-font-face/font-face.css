@@ -38,3 +38,7 @@ section:nth-of-type(3) {
   padding: 1rem;
   margin: 1rem;
 }
+/*
+We have to differ the simmilarities amoung the fonts by testing them in the browser, and if the layout does not move, we can conlude that it works.
+*/
+/*  */
