@@ -16,39 +16,36 @@
           There are several types of font formats, e.g. WOFF, TTF, etc.
           <ul>
             <li>
-              Woff(Open Font Format)
+              <b>Woff</b>(Open Font Format)
             </li>
             <li>
-              Woff2(Web Open Font format 2.0)
+              <b>Woff2</b>(Web Open Font format 2.0)
             </li>
             <li>
-              eot(Embedded Open type)
+              <b>eot</b>(Embedded Open type)
             </li>
             <li>
-              otf(Open type Font)
+              <b>otf</b>(Open type Font)
             </li>
             <li>
-              ttf(True Type Font)
+              <b>ttf</b>(True Type Font)
             </li>
             <li>
-              svg
+              <b>svg</b>
             </li>
           </ul>
         </li>
         <li>
-          Woff is one of these font file formats which is a good candidate to use in all browsers.
+          "Woff" is one of these font file formats which is a good candidate to use in all browsers.
         </li>
         <li>
           The font-face syntax is also different to other @-blocks. The differences between a @font-face block and @keyframes / @media queries / @supports blocks are:
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>For @font-face block we can donload the value when it does not exist in our computer, but for the others the value has to exist in the computer.</li>
           </ul>
         </li>
         <li>
-          Some fonts come with licencing restrictions. This means
+          Some fonts come with licencing restrictions. The licence restriction is a letter which allows you to use the font.
         </li>
         <li>
           A designer has assigned you a mockup to turn into HTML/CSS. You've tabled the list of fonts used in the document. In this case we need 8 font-face blocks to provide if we want to support all the chosen fonts.
@@ -57,18 +54,17 @@
           At roughly 20KB per font file, each of our users would have to download 120kb of fonts, in the example above.
         </li>
         <li>
-          If we chose to offer WOFF2 as well as WOFF, we would use syntax like this @font-face {
-          font-family: "Open Sans";
+          If we chose to offer WOFF2 as well as WOFF, we would use syntax like this <b><i>@font-face {
           src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-          url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+          url("/fonts/OpenSans-Regular-webfont.woff") format("woff");</i></b>
           <br>.
-          According to question 5 we would have files.
+          According to question 5 we would have 8 files.
         </li>
         <li>
-          Most of our users would probably have the exact font we want to serve already installed on their devices. To make sure the user's browser doesn't download the fonts they might already have we can
+          Most of our users would probably have the exact font we want to serve already installed on their devices. To make sure the user's browser doesn't download the fonts they might already have we can specify that the font is already installed in the user's computer.
         </li>
         <li>
-          Sometimes we have to assign fallback fonts for our custom webfonts we add via `@font-face`. What are some things to keep in mind when it comes to selecting these fallback fonts?
+          Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face. Some things to keep in mind when it comes to selecting these fallback fonts are
         </li>
         <li>
           The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first. What property can we use to help the browser decide on which strategy to use?
