@@ -69,7 +69,7 @@
       </h2>
         <ul>
           <li>
-            The pointer-events sets whether or not an element should react to pointer events.
+            The pointer-events sets whether or not an element should react to pointer events. If the value for this is none the pointer will not work.
           </li>
           <li>
             <b>Auto</b> is the default value for this property.
@@ -99,7 +99,7 @@
         </h2>
         <ul>
           <li>
-            The outline property specifies the outline to be added to the box.
+            The outline property specifies the outline to be added to the box. This is useful if you want to  wrap an element but without setting a width for that element.
           </li>
           <li>
             <b>Medium invert color</b> is the default value for this property.
@@ -151,7 +151,7 @@
         </h2>
         <ul>
           <li>
-            The <b>appearance</b> property is used to display an element using a platform-native styling based on the users’ operating system’s theme.
+            The <b>appearance</b> property is used to display an element using a platform-native styling based on the users’ operating system’s theme. This is really useful if you want to override an object set by default.
           </li>
           <li>
             The <b>appearance</b> property is used for one of two reason: To apply and platform specific styling to an element that doesn’t have it by default. And To remove platform specific styling to an element that doesn’t have it by default.
@@ -180,13 +180,13 @@
         </h2>
         <ul>
           <li>
-
+            The scroll-snap-align property specifies the box’s snap position as an alignment of its snap area (as the alignment subject) within its snap container’s snapport (as the alignment container)
           </li>
           <li>
-
+            <b>None</b> is a default value for this property.
           </li>
           <li>
-
+            All of its values: none, start, end, center.
           </li>
         </ul>
       </section>
@@ -211,10 +211,12 @@
           :focus-within
         </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            The :focus-within CSS pseudo-class represents an element that has received focus or contains an element that has received focus.
+          </li>
+          <li>
+
+          </li>
         </ul>
       </section>
       <section>
@@ -222,10 +224,12 @@
           :visited
         </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            The :visited CSS pseudo-class represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited.
+          </li>
+          <li>
+
+          </li>
         </ul>
       </section>
       <section>
@@ -233,10 +237,15 @@
           :active
         </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user.
+          </li>
+          <li>
+            When using a mouse, "activation" typically starts when the user presses down the primary mouse button.
+          </li>
+          <li>
+
+          </li>
         </ul>
       </section>
       <section>
@@ -244,10 +253,12 @@
           :target
         </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            The :target CSS pseudo-class represents a unique element (the target element) with an id matching the URL's fragment.
+          </li>
+          <li>
+
+          </li>
         </ul>
       </section>
       <section>
@@ -255,9 +266,12 @@
           :disabled
         </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+
+          </li>
+          <li>
+
+          </li>
         </ul>
       </section>
       <section>
@@ -265,9 +279,12 @@
           :empty
         </h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+
+          </li>
+          <li>
+            This becomes useful to put style in an empty element.
+          </li>
         </ul>
       </section>
       <section>
@@ -305,7 +322,7 @@
         </h2>
         <ul>
           <li>
-            The <b>::first-letter</b> CSS pseudo-element is used to add a style to the first letter of the specified selector..
+            The <b>::first-letter</b> CSS pseudo-element is used to add a style to the first letter of the specified selector.
           </li>
           <li>
             font properties, color properties, background properties, margin properties, padding properties, border properties, text-decoration, vertical-align (only if float is 'none'), text-transform, line-height, float, clear.
@@ -323,6 +340,9 @@
           <li>
             The supports condition consists of one or more name-value pairs combined by conjunctions <mark>and</mark>, <mark>or</mark>, <mark>not</mark>.
           </li>
+          <li>
+            This is useful if you are not sure that all browser support a property you want to use.
+          </li>
         </ul>
       </section>
       <section>
@@ -338,6 +358,19 @@
           </li>
           <li>
             These are the type of its units: String, Color, Url, Number, Angle, Cap, Ch, Em, Ex, Ic, Lh, Rlh, Rem, Vb, Vi, Vw, Vh, Vmin, Vmax, Mm, Q, Cm, In, Pt, pc, px, deg, grad, rad, turn, ms, s, Hz, kHz, %.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>
+          @media
+        </h2>
+        <ul>
+          <li>
+            This helps us to control the orientation of the element, in order to make sure that the element looks beautiful in different diveces.
+          </li>
+          <li>
+            We have to deal with <mark>min-width</mark> and <mark>max-with</mark>.
           </li>
         </ul>
       </section>
