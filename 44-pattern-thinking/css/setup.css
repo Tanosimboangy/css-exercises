@@ -30,8 +30,8 @@ section + section {
 }
 
 .example {
-  border: 1px solid #ccc;
-  padding: 1rem;
+  border: 16px solid black;
+  /* padding: 1rem; */
 }
 
 .example + .example {
@@ -50,9 +50,9 @@ section header img {
 
 .example_group .example {
   margin-block-start: 0;
-  margin-inline-start: 1rem;
   margin-inline-end: 1rem;
   flex-grow: 1;
+  max-width: 260px;
   position: relative;
 }
 
