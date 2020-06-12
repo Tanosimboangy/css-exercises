@@ -88,6 +88,8 @@
 }
 [data-example="3"] > article > .content {
   --article-elem-color: 63, 191, 63;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 [data-example="3"] > article > .content > p {
 
