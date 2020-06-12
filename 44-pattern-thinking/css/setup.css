@@ -30,10 +30,13 @@ section + section {
 }
 
 .example {
-  border: 1px solid #ccc;
+  border: 1px solid black;
+  padding: 1rem;
 }
+
 [data-example="1"], [data-example="2"], [data-example="3"] {
   border: 16px solid black;
+  padding: 0;
 }
 
 .example + .example {

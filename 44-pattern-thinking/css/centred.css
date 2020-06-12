@@ -14,15 +14,32 @@
 
 /* 4 */
 [data-example="4"] {
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+[data-example="4"] p {
+  align-self: center;
 }
 
 /* 5 */
 [data-example="5"] {
 
 }
+[data-example="5"] > .center {
+
+}
+[data-example="5"] p {
+
+}
 
 /* 6 */
 [data-example="6"] {
+
+}
+[data-example="6"] > .center {
+
+}
+[data-example="6"] p {
 
 }

@@ -46,8 +46,6 @@
 }
 
 
-
-
 [data-example="2"] > article {
   display: grid;
   grid-template-rows: repeat(3, fr);
@@ -74,17 +72,12 @@
 }
 
 
-
-
-
-[data-example="3"] > article {
-
-}
 [data-example="3"] > article > header {
   --article-elem-color: 63, 63, 191;
 }
 [data-example="3"] > article > header > h2 {
   font-size: 1rem;
+  display: inline-block;
 }
 [data-example="3"] > article > .content {
   --article-elem-color: 63, 191, 63;
@@ -92,13 +85,13 @@
   margin-block-end: 1rem;
 }
 [data-example="3"] > article > .content > p {
-
+  display: inline-block;
 }
 [data-example="3"] > article > footer {
   --article-elem-color: 191, 63, 63;
 }
 [data-example="3"] > article > footer > p {
-
+  display: inline-block;
 }
 
 
