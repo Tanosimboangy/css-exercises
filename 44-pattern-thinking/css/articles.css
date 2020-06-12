@@ -26,62 +26,74 @@
 [data-example="1"] > article > header {
   --article-elem-color: 63, 63, 191;
 }
-[data-example="2"] > article > header {
-  --article-elem-color: 63, 63, 191;
-}
-[data-example="3"] > article > header {
-  --article-elem-color: 63, 63, 191;
-}
 [data-example="1"] > article > header > h2 {
   font-size: 1rem;
   display: inline-flex;
 }
-[data-example="2"] > article > header > h2 {
-  font-size: 1rem;
-}
-[data-example="3"] > article > header > h2 {
-  font-size: 1rem;
-}
-
-
-
 [data-example="1"] > article > .content {
   --article-elem-color: 63, 191, 63;
   margin-block-start: 1rem;
   margin-block-end: 1rem;
 }
-[data-example="2"] > article > .content {
-  --article-elem-color: 63, 191, 63;
-}
-[data-example="3"] > article > .content {
-  --article-elem-color: 63, 191, 63;
-}
 [data-example="1"] > article > .content > p {
   display: inline-flex;
 }
-[data-example="2"] > article > .content > p {
-
-}
-[data-example="3"] > article > .content > p {
-
-}
-
-
-
 [data-example="1"] > article > footer {
-  --article-elem-color: 191, 63, 63;
-}
-[data-example="2"] > article > footer {
-  --article-elem-color: 191, 63, 63;
-}
-[data-example="3"] > article > footer {
   --article-elem-color: 191, 63, 63;
 }
 [data-example="1"] > article > footer > p {
   display: inline-flex;
 }
-[data-example="2"] > article > footer > p {
 
+
+
+
+[data-example="2"] > article {
+  display: grid;
+  grid-template-rows: repeat(3, fr);
+  row-gap: 1rem;
+}
+[data-example="2"] > article > header > h2 {
+  font-size: 1rem;
+  display: inline-block;
+}
+[data-example="2"] > article > header {
+  --article-elem-color: 63, 63, 191;
+}
+[data-example="2"] > article > .content {
+  --article-elem-color: 63, 191, 63;
+}
+[data-example="2"] > article > .content > p {
+  display: inline-block;
+}
+[data-example="2"] > article > footer {
+  --article-elem-color: 191, 63, 63;
+}
+[data-example="2"] > article > footer > p {
+  display: inline-block;
+}
+
+
+
+
+
+[data-example="3"] > article {
+
+}
+[data-example="3"] > article > header {
+  --article-elem-color: 63, 63, 191;
+}
+[data-example="3"] > article > header > h2 {
+  font-size: 1rem;
+}
+[data-example="3"] > article > .content {
+  --article-elem-color: 63, 191, 63;
+}
+[data-example="3"] > article > .content > p {
+
+}
+[data-example="3"] > article > footer {
+  --article-elem-color: 191, 63, 63;
 }
 [data-example="3"] > article > footer > p {
 

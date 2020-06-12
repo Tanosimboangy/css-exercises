@@ -56,26 +56,6 @@ section header img {
   flex-grow: 1;
   position: relative;
 }
-.example_group [data-example="1"] {
-  margin-block-start: 0;
-  margin-inline-end: 1rem;
-  flex-grow: 1;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-.example_group [data-example="2"] {
-  margin-block-start: 0;
-  margin-inline-end: 1rem;
-  flex-grow: 1;
-  position: relative;
-}
-.example_group [data-example="3"] {
-  margin-block-start: 0;
-  margin-inline-end: 1rem;
-  flex-grow: 1;
-  position: relative;
-}
 
 .example_group .example::after {
   content: '[data-example="' attr(data-example) '"]';
