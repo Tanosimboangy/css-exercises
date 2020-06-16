@@ -48,7 +48,7 @@
 
 [data-example="2"] > article {
   display: grid;
-  grid-template-rows: repeat(3, fr);
+  grid-template-rows: repeat(3, 1fr);
   row-gap: 1rem;
 }
 [data-example="2"] > article > header > h2 {
