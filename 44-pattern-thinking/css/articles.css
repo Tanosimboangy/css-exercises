@@ -44,6 +44,8 @@
 [data-example="1"] > article > footer > p {
   display: inline-flex;
 }
+/*Flex is reliable, easier, responsive, overflow, understandable*/
+
 
 
 [data-example="2"] > article {
@@ -70,6 +72,7 @@
 [data-example="2"] > article > footer > p {
   display: inline-block;
 }
+/* Grid is reliable, easier, responsive, overflow, understandable*/
 
 
 [data-example="3"] > article > header {
@@ -93,7 +96,7 @@
 [data-example="3"] > article > footer > p {
   display: inline-block;
 }
-
+/* Stack is reliable, easier, responsive, overflow, understandable*/
 
 
 /* 1 */
