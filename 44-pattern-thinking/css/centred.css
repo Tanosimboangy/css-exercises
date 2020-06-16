@@ -23,16 +23,21 @@ justify-content: center;
   justify-content: center;
 }
 
+
+
 /* 5 */
 [data-example="5"] {
-display: inline-block;
+
 }
 [data-example="5"] > .centred {
 margin-block-start: 2.5rem;
 }
 [data-example="5"] p {
   display: inline-block;
+  transform: translateX(50%);
 }
+
+
 
 /* 6 */
 [data-example="6"] {
