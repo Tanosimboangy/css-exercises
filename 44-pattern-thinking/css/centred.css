@@ -30,11 +30,10 @@ justify-content: center;
 
 }
 [data-example="5"] > .centred {
-margin-block-start: 2.5rem;
+  transform: translateY(50%);
 }
 [data-example="5"] p {
-  display: inline-block;
-  transform: translateX(50%);
+  display: inline-flex;
 }
 
 
@@ -44,7 +43,9 @@ margin-block-start: 2.5rem;
 
 }
 [data-example="6"] > .centred {
-
+  display: grid;
+  transform: translateY(50%);
+  justify-items: center;
 }
 [data-example="6"] p {
 
